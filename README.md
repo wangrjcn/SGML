@@ -12,7 +12,6 @@ SGML...
 ## 1.1 Artificial Neural Networks (ANN)
 
 *def* SGML.ann(`train_path`='C',.
-
 2
 
 
