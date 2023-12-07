@@ -19,55 +19,55 @@ SGML...
 
 *`test_path`* = *str*, 
 
-<sub> ➡ Load path for the testing set. </sub>
+<sub> ↪ Load path for the testing set. </sub>
 
 *`feature_names`* = *list*, 
 
-<sub> ➡ List containing feature names, such as *`['x1', 'x2', ...]`*. </sub>
+<sub> ↪ List containing feature names, such as *`['x1', 'x2', ...]`*. </sub>
 
 *`lable_names`* = *list*, 
 
-<sub> ➡ List containing label names, such as *`['y']`*. </sub>
+<sub> ↪ List containing label names, such as *`['y']`*. </sub>
 
 *`solution_functions`* = *list*, 
 
-<sub> ➡ List containing label names, such as *`[solution1, solution2, ...]`*. *`default=None`* </sub>
+<sub> ↪ List containing label names, such as *`[solution1, solution2, ...]`*. *`default=None`* </sub>
 
 *`model_loadpath`* = *str*, 
 
-<sub> ➡ Load path for the existing model. *`default=None`* </sub>
+<sub> ↪ Load path for the existing model. *`default=None`* </sub>
 
 *`model_savepath`* = *str*, 
 
-<sub> ➡ Save path for the model. *`default=None`* </sub>
+<sub> ↪ Save path for the model. *`default=None`* </sub>
 
 *`hidden_layers`* = *list*, 
 
-<sub> ➡ The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. </sub>
+<sub> ↪ The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. </sub>
 
 *`activation_function`*  = *class*, 
 
-<sub> ➡ None, </sub>
+<sub> ↪ None, </sub>
 
 *`batch_size`* = *int*, 
 
-<sub> ➡ None, </sub>
+<sub> ↪ None, </sub>
 
 *`criterion`* = *class*, 
 
-<sub> ➡ None, </sub>
+<sub> ↪ None, </sub>
 
 *`optimizer`* = *class*, 
 
-<sub> ➡ None, </sub>
+<sub> ↪ None, </sub>
 
 *`learning_rate`*  = *float*, 
 
-<sub> ➡ None, </sub>
+<sub> ↪ None, </sub>
 
-*`epochs`* = *int*, <sub> ➡ 5000 
+*`epochs`* = *int*, 
 
-</sub>
+<sub> ↪ 5000 </sub>
 
 )
 
