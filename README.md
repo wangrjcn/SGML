@@ -13,19 +13,19 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`* = *str*, <sub> ➡ The path to the training set. </sub>
+*`train_path`* = *str*, <sub> ➡ Load path for the training set. </sub>
 
-*`test_path`* = *str*, <sub> ➡ The path to the testing set. </sub>
+*`test_path`* = *str*, <sub> ➡ Load path for the testing set. </sub>
 
-*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as *['x1', 'x2', ...]*. </sub>
+*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as *`['x1', 'x2', ...]`*. </sub>
 
-*`lable_names`* = *list*, <sub> ➡ List containing label names. Such as *['y']*. </sub>
+*`lable_names`* = *list*, <sub> ➡ List containing label names. Such as *`['y']`*. </sub>
 
-*`solution_functions`* = *list*, <sub> ➡ List containing label names. Such as *[solution1, solution2, ...]*. </sub>
+*`solution_functions`* = *list*, <sub> ➡ List containing label names. Such as *`[solution1, solution2, ...]`*. </sub>
 
-*`model_loadpath`* = *str*, <sub> ➡ None, </sub>
+*`model_loadpath`* = *str*, <sub> ➡ Load path for the existing model. </sub>
 
-*`model_savepath`* = *str*, <sub> ➡ None, </sub>
+*`model_savepath`* = *str*, <sub> ➡ Save path for the model. </sub>
 
 *`hidden_layers`* = *list*, <sub> ➡ [8, 8], </sub>
 
