@@ -1,4 +1,4 @@
-# SGML
+# Solution-guided Machine Learning (SGML)
 
 SGML...
 
@@ -9,9 +9,9 @@ SGML...
 
 
 # API
-## 1.1 Artificial Neural Networks (ANN)
+## 1. Based Artificial Neural Networks (ANN)
 
-*def*   SGML.ann(
+*def*   **SGML.ann(**
 
 *`train_path`* = *str*, 
 
@@ -51,15 +51,15 @@ SGML...
 
 *`batch_size`* = *int*, 
 
-<sup> ↪ *`default=Total number of samples`*, </sup>
+<sup> ↪ The number of training samples used by the model during each parameter update. *`default=Total number of samples`* </sup>
 
 *`criterion`* = *class*, 
 
-<sup> ↪ *`default=torch.nn.MSELoss()`* </sup>
+<sup> ↪ The loss function—refer to the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* </sup>
 
 *`optimizer`* = *class*, 
 
-<sup> ↪ *`default=torch.optim.Adam`* </sup>
+<sup> ↪ The optimizer—refer to the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details.*`default=torch.optim.Adam()`* </sup>
 
 *`learning_rate`*  = *float*, 
 
@@ -69,9 +69,9 @@ SGML...
 
 <sup> ↪ *`default=5000`* </sup>
 
-)
+**)**
 
-*return* the trained model, labels of testing set, predicted results
+*return* *class* <sub>(the trained model)</sub>, *ndarray* <sub>(labels of testing set)</sub>, *ndarray* <sub>(predicted results)</sub>
 
 
 
