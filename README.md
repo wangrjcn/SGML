@@ -43,31 +43,31 @@ SGML...
 
 *`hidden_layers`* = *list*, 
 
-<sup> ↪ The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. </sup>
+<sup> ↪ The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. *`default=[8, 8]`* </sup>
 
 *`activation_function`*  = *class*, 
 
-<sup> ↪ None, </sup>
+<sup> ↪ The activation function—refer to the [PYTORCH DOCUMENTATION](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* </sup>
 
 *`batch_size`* = *int*, 
 
-<sup> ↪ None, </sup>
+<sup> ↪ *`default=Total number of samples`*, </sup>
 
 *`criterion`* = *class*, 
 
-<sup> ↪ None, </sup>
+<sup> ↪ *`default=torch.nn.MSELoss()`* </sup>
 
 *`optimizer`* = *class*, 
 
-<sup> ↪ None, </sup>
+<sup> ↪ *`default=torch.optim.Adam`* </sup>
 
 *`learning_rate`*  = *float*, 
 
-<sup> ↪ None, </sup>
+<sup> ↪ *`default=0.01`* </sup>
 
 *`epochs`* = *int*, 
 
-<sup> ↪ 5000 </sup>
+<sup> ↪ *`default=5000`* </sup>
 
 )
 
