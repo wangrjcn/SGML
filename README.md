@@ -17,15 +17,15 @@ SGML...
 
 *`test_path`* = *str*, <sub> ➡ Load path for the testing set. </sub>
 
-*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as *`['x1', 'x2', ...]`*. </sub>
+*`feature_names`* = *list*, <sub> ➡ List containing feature names, such as *`['x1', 'x2', ...]`*. </sub>
 
-*`lable_names`* = *list*, <sub> ➡ List containing label names. Such as *`['y']`*. </sub>
+*`lable_names`* = *list*, <sub> ➡ List containing label names, such as *`['y']`*. </sub>
 
-*`solution_functions`* = *list*, <sub> ➡ List containing label names. Such as *`[solution1, solution2, ...]`*. </sub>
+*`solution_functions`* = *list*, <sub> ➡ List containing label names, such as *`[solution1, solution2, ...]`*, *`default=None`*. </sub>
 
-*`model_loadpath`* = *str*, <sub> ➡ Load path for the existing model. </sub>
+*`model_loadpath`* = *str*, <sub> ➡ Load path for the existing model, *`default=None`*. </sub>
 
-*`model_savepath`* = *str*, <sub> ➡ Save path for the model. </sub>
+*`model_savepath`* = *str*, <sub> ➡ Save path for the model, *`default=None`*. </sub>
 
 *`hidden_layers`* = *list*, <sub> ➡ [8, 8], </sub>
 
