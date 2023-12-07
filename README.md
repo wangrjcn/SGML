@@ -11,7 +11,7 @@ SGML...
 # API
 ## 1.1 Artificial Neural Networks (ANN)
 
-    *def* SGML.ann(train_path=os.path.join(current_dir, 'dataset/bending_train1.csv'),
+    *def* SGML.ann(`train_path`=os.path.join(current_dir, 'dataset/bending_train1.csv'),
 
                test_path=os.path.join(current_dir, 'dataset/bending_test1.csv'),
 
