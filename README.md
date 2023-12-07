@@ -13,33 +13,33 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`* = *str*,  <sub> ➡ The path to the training set.</sub>
+*`train_path`* = *str*, <sub> ➡ The path to the training set. </sub>
 
-*`test_path`* = *str*, ➡ The path to the testing set.
+*`test_path`* = *str*, <sub> ➡ The path to the testing set. </sub>
 
-*`feature_names`* = *list*, ➡ ['F', 'x'],
+*`feature_names`* = *list*, <sub> ➡ ['F', 'x'], </sub>
 
-*`lable_names`* = *list*, ➡ ['y'],
+*`lable_names`* = *list*, <sub> ➡ ['y'], </sub>
 
-*`solution_functions`* = *list*, ➡ [solution_1],
+*`solution_functions`* = *list*, <sub> ➡ [solution_1], </sub>
 
-*`model_loadpath`* = *str*, ➡ None,
+*`model_loadpath`* = *str*, <sub> ➡ None, </sub>
 
-*`model_savepath`* = *str*, ➡ None,
+*`model_savepath`* = *str*, <sub> ➡ None, </sub>
 
-*`hidden_layers`* = *list*, ➡ [8, 8],
+*`hidden_layers`* = *list*, <sub> ➡ [8, 8], </sub>
 
-*`activation_function`*  = *class*, ➡ None,
+*`activation_function`*  = <sub> *class*, ➡ None, </sub>
 
-*`batch_size`* = *int*, ➡ None,
+*`batch_size`* = *int*, <sub> ➡ None, </sub>
 
-*`criterion`* = *class*, ➡ None,
+*`criterion`* = *class*, <sub> ➡ None, </sub>
 
-*`optimizer`* = *class*, ➡ None,
+*`optimizer`* = *class*, <sub> ➡ None, </sub>
 
-*`learning_rate`*  = *float*, ➡ None,
+*`learning_rate`*  = *float*, <sub> ➡ None, </sub>
 
-*`epochs`* = *int*, ➡ 5000
+*`epochs`* = *int*, <sub> ➡ 5000 </sub>
 
 )
 
