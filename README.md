@@ -45,7 +45,7 @@ SGML...
 
 *return* the trained model, labels of testing set, predicted results
 
-
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 
 
