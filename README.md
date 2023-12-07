@@ -13,7 +13,9 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`* = *str*, <sub> ➡ Load path for the training set. </sub>
+*`train_path`* = *str*, 
+
+<sub> ➡ Load path for the training set. </sub>
 
 *`test_path`* = *str*, <sub> ➡ Load path for the testing set. </sub>
 
