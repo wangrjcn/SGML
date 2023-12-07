@@ -13,7 +13,7 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`* = *str*, #0969DA os.path.join(current_dir, 'dataset/bending_train1.csv'),
+*`train_path`* = *str*, 💡 os.path.join(current_dir, 'dataset/bending_train1.csv'),
 
 *`test_path`* = *str*, os.path.join(current_dir, 'dataset/bending_test1.csv'),
 
@@ -45,7 +45,7 @@ SGML...
 
 *return* the trained model, labels of testing set, predicted results
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 
 
 
