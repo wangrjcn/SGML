@@ -23,51 +23,51 @@ SGML...
 
 *`feature_names`* = *list*, 
 
-<sub> ↪ List containing feature names, such as *`['x1', 'x2', ...]`*. </sub>
+<sup> ↪ List containing feature names, such as *`['x1', 'x2', ...]`*. </sup>
 
 *`lable_names`* = *list*, 
 
-<sub> ↪ List containing label names, such as *`['y']`*. </sub>
+<sup> ↪ List containing label names, such as *`['y']`*. </sup>
 
 *`solution_functions`* = *list*, 
 
-<sub> ↪ List containing label names, such as *`[solution1, solution2, ...]`*. *`default=None`* </sub>
+<sup> ↪ List containing label names, such as *`[solution1, solution2, ...]`*. *`default=None`* </sup>
 
 *`model_loadpath`* = *str*, 
 
-<sub> ↪ Load path for the existing model. *`default=None`* </sub>
+<sup> ↪ Load path for the existing model. *`default=None`* </sup>
 
 *`model_savepath`* = *str*, 
 
-<sub> ↪ Save path for the model. *`default=None`* </sub>
+<sup> ↪ Save path for the model. *`default=None`* </sup>
 
 *`hidden_layers`* = *list*, 
 
-<sub> ↪ The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. </sub>
+<sup> ↪ The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. </sup>
 
 *`activation_function`*  = *class*, 
 
-<sub> ↪ None, </sub>
+<sup> ↪ None, </sup>
 
 *`batch_size`* = *int*, 
 
-<sub> ↪ None, </sub>
+<sup> ↪ None, </sup>
 
 *`criterion`* = *class*, 
 
-<sub> ↪ None, </sub>
+<sup> ↪ None, </sup>
 
 *`optimizer`* = *class*, 
 
-<sub> ↪ None, </sub>
+<sup> ↪ None, </sup>
 
 *`learning_rate`*  = *float*, 
 
-<sub> ↪ None, </sub>
+<sup> ↪ None, </sup>
 
 *`epochs`* = *int*, 
 
-<sub> ↪ 5000 </sub>
+<sup> ↪ 5000 </sup>
 
 )
 
