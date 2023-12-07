@@ -47,7 +47,7 @@ SGML...
 
 *`activation_function`*  = *class*, 
 
-<sup> ↪ The activation function—refer to the [PYTORCH DOCUMENTATION](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* </sup>
+<sup> ↪ The activation function—refer to the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* </sup>
 
 *`batch_size`* = *int*, 
 
