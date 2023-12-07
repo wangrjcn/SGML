@@ -15,7 +15,7 @@ SGML...
 
 *`train_path`* = *str*, 💡 os.path.join(current_dir, 'dataset/bending_train1.csv'),
 
-*`test_path`* = *str*, os.path.join(current_dir, 'dataset/bending_test1.csv'),
+*`test_path`* = *str*, ➡ os.path.join(current_dir, 'dataset/bending_test1.csv'),
 
 *`feature_names`* = *list*, ['F', 'x'],
 
