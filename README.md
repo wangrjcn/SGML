@@ -15,11 +15,11 @@ SGML...
 
 *`train_path`* = *str*, 
 
-<sub> ↪ Load path for the training set. </sub>
+<sup> ↪ Load path for the training set. </sup>
 
 *`test_path`* = *str*, 
 
-<sub> ↪ Load path for the testing set. </sub>
+<sup> ↪ Load path for the testing set. </sup>
 
 *`feature_names`* = *list*, 
 
