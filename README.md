@@ -13,9 +13,9 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`* = *str*, ➡ os.path.join(current_dir, 'dataset/bending_train1.csv'),
+*`train_path`* = *str*, ➡ <sub>The path to the training set.</sub>
 
-*`test_path`* = *str*, ➡ os.path.join(current_dir, 'dataset/bending_test1.csv'),
+*`test_path`* = *str*, ➡ The path to the testing set.
 
 *`feature_names`* = *list*, ➡ ['F', 'x'],
 
