@@ -17,11 +17,11 @@ SGML...
 
 *`test_path`* = *str*, <sub> ➡ The path to the testing set. </sub>
 
-*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as ['x<sub>1</sub>', 'x<sub>1</sub>', ..., 'x<sub>n</sub>'] </sub>
+*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as *['x1', 'x2', ...]*. </sub>
 
-*`lable_names`* = *list*, <sub> ➡ List containing label names. Such as ['y'], </sub>
+*`lable_names`* = *list*, <sub> ➡ List containing label names. Such as *['y']*. </sub>
 
-*`solution_functions`* = *list*, <sub> ➡ [solution_1], </sub>
+*`solution_functions`* = *list*, <sub> ➡ List containing label names. Such as *[solution1, solution2, ...]*. </sub>
 
 *`model_loadpath`* = *str*, <sub> ➡ None, </sub>
 
