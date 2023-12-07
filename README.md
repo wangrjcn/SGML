@@ -15,7 +15,7 @@ SGML...
 
 *`train_path`* = *str*, 
 
-↪ Load path for the training set.
+<sub> ↪ Load path for the training set. </sub>
 
 *`test_path`* = *str*, 
 
