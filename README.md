@@ -17,9 +17,9 @@ SGML...
 
 *`test_path`* = *str*, <sub> ➡ The path to the testing set. </sub>
 
-*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as ['x<sub>1</sub>', 'x2', ...] </sub>
+*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as ['x<sub>1</sub>', 'x<sub>1</sub>', ..., 'x<sub>n</sub>'] </sub>
 
-*`lable_names`* = *list*, <sub> ➡ ['y'], </sub>
+*`lable_names`* = *list*, <sub> ➡ List containing label names. Such as ['y'], </sub>
 
 *`solution_functions`* = *list*, <sub> ➡ [solution_1], </sub>
 
