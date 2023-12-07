@@ -43,7 +43,7 @@ SGML...
 
 )
 
-
+*return* the trained model, labels of testing set, predicted results
 
 
 
