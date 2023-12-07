@@ -13,33 +13,33 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`* = *str*, 💡 os.path.join(current_dir, 'dataset/bending_train1.csv'),
+*`train_path`* = *str*, ➡ os.path.join(current_dir, 'dataset/bending_train1.csv'),
 
 *`test_path`* = *str*, ➡ os.path.join(current_dir, 'dataset/bending_test1.csv'),
 
-*`feature_names`* = *list*, ['F', 'x'],
+*`feature_names`* = *list*, ➡ ['F', 'x'],
 
-*`lable_names`* = ['y'],
+*`lable_names`* = *list*, ➡ ['y'],
 
-*`solution_functions`* = [solution_1],
+*`solution_functions`* = *list*, ➡ [solution_1],
 
-*`model_loadpath`* = None,
+*`model_loadpath`* = *str*, ➡ None,
 
-*`model_savepath`* = None,
+*`model_savepath`* = *str*, ➡ None,
 
-*`hidden_layers`* = [8, 8],
+*`hidden_layers`* = *list*, ➡ [8, 8],
 
-*`activation_function`*  =None,
+*`activation_function`*  = *class*, ➡ None,
 
-*`batch_size`* = None,
+*`batch_size`* = *int*, ➡ None,
 
-*`criterion`* = None,
+*`criterion`* = *class*, ➡ None,
 
-*`optimizer`* = None,
+*`optimizer`* = *class*, ➡ None,
 
-*`learning_rate`*  =None,
+*`learning_rate`*  = *float*, ➡ None,
 
-*`epochs`* = 5000
+*`epochs`* = *int*, ➡ 5000
 
 )
 
