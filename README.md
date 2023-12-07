@@ -13,33 +13,33 @@ SGML...
 
 *def*   SGML.ann(
 
-*`train_path`*=os.path.join(current_dir, 'dataset/bending_train1.csv'),
+*`train_path`* = *str*, os.path.join(current_dir, 'dataset/bending_train1.csv'),
 
-*`test_path`*=os.path.join(current_dir, 'dataset/bending_test1.csv'),
+*`test_path`* = *str*, os.path.join(current_dir, 'dataset/bending_test1.csv'),
 
-*`feature_names`*=['F', 'x'],
+*`feature_names`* = *list*, ['F', 'x'],
 
-*`lable_names`*=['y'],
+*`lable_names`* = ['y'],
 
-*`solution_functions`*=[solution_1],
+*`solution_functions`* = [solution_1],
 
-*`model_loadpath`*=None,
+*`model_loadpath`* = None,
 
-*`model_savepath`*=None,
+*`model_savepath`* = None,
 
-*`hidden_layers`*=[8, 8],
+*`hidden_layers`* = [8, 8],
 
-*`activation_function`*=None,
+*`activation_function`*  =None,
 
-*`batch_size`*=None,
+*`batch_size`* = None,
 
-*`criterion`*=None,
+*`criterion`* = None,
 
-*`optimizer`*=None,
+*`optimizer`* = None,
 
-*`learning_rate`*=None,
+*`learning_rate`*  =None,
 
-*`epochs`*=5000
+*`epochs`* = 5000
 
 )
 
