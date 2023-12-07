@@ -17,7 +17,7 @@ SGML...
 
 *`test_path`* = *str*, <sub> ➡ The path to the testing set. </sub>
 
-*`feature_names`* = *list*, <sub> ➡ ['F', 'x'], </sub>
+*`feature_names`* = *list*, <sub> ➡ List containing feature names. Such as ['x<sub>1</sub>', 'x2', ...] </sub>
 
 *`lable_names`* = *list*, <sub> ➡ ['y'], </sub>
 
@@ -29,7 +29,7 @@ SGML...
 
 *`hidden_layers`* = *list*, <sub> ➡ [8, 8], </sub>
 
-*`activation_function`*  = <sub> *class*, ➡ None, </sub>
+*`activation_function`*  = *class*, <sub> ➡ None, </sub>
 
 *`batch_size`* = *int*, <sub> ➡ None, </sub>
 
