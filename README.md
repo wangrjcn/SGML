@@ -9,17 +9,36 @@ SGML...
 
 
 # API
-## 1. Based Artificial Neural Networks (ANN)
 
-*def*   **SGML.ann(**
+All models are presently implemented as functions, each returning the trained model along with both the labels and predictions for the testing set. Furthermore, when the parameters are set to *`None`* or left unspecified, the default values for those parameters will be applied. 
+
+## 1. Define Solution Function
+
+*def* **SGML.create_solution_function(**
+
+*`expression`* = *str*, 
+
+<sup> Solution expression, such as *`'a**2+b+1'`*. </sup> 
+                                           
+*`variables`* = *list*, 
+
+<sup> List of variables included in the solution，such as *`['a', 'b']`*. </sup>
+
+**)**
+
+*return* *function*
+
+## 2. Train Artificial Neural Network-Based Model
+
+*def* **SGML.ann(**
 
 *`train_path`* = *str*, 
 
-<sup> ↪ Load path for the training set. </sup>
+<sup> ↪ The file path for loading the training set. </sup>
 
 *`test_path`* = *str*, 
 
-<sup> ↪ Load path for the testing set. </sup>
+<sup> ↪ The file path for loading the testing set. </sup>
 
 *`feature_names`* = *list*, 
 
@@ -31,15 +50,15 @@ SGML...
 
 *`solution_functions`* = *list*, 
 
-<sup> ↪ List containing label names, such as *`[solution1, solution2, ...]`*. *`default=None`* </sup>
+<sup> ↪ List containing solution function names, such as *`[solution1, solution2, ...]`*. *`default=None`* </sup>
 
 *`model_loadpath`* = *str*, 
 
-<sup> ↪ Load path for the existing model. *`default=None`* </sup>
+<sup> ↪ The file path for the existing model. *`default=None`* </sup>
 
 *`model_savepath`* = *str*, 
 
-<sup> ↪ Save path for the model. *`default=None`* </sup>
+<sup> ↪ Path to save the model. *`default=None`* </sup>
 
 *`hidden_layers`* = *list*, 
 
@@ -65,13 +84,16 @@ SGML...
 
 <sup> ↪ *`default=0.01`* </sup>
 
-*`epochs`* = *int*, 
+*`epochs`* = *int*
 
 <sup> ↪ *`default=5000`* </sup>
 
 **)**
 
-*return* *class* <sub>(the trained model)</sub>, *ndarray* <sub>(labels of testing set)</sub>, *ndarray* <sub>(predicted results)</sub>
+*return* *class*, *ndarray*, *ndarray*
+
+## 3. Train Support Vector Regression-Based Model
+
 
 
 
