@@ -23,7 +23,7 @@ SGML...
 
 <sup> Solution expression, such as *`'a**3+2*b+1'`*. </sup> 
                                            
-*`variables`* = *list*, 
+*`variables`* = *list* 
 
 <sup> List of variables included in the solution，such as *`['a', 'b']`*. </sup>
 
@@ -69,7 +69,7 @@ SGML...
 
 *`activation_function`*  = *class*, 
 
-<sup> The activation function—refer to the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* </sup>
+<sup> The activation function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* </sup>
 
 *`batch_size`* = *int*, 
 
@@ -77,11 +77,11 @@ SGML...
 
 *`criterion`* = *class*, 
 
-<sup> The loss function—refer to the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* </sup>
+<sup> The loss function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* </sup>
 
 *`optimizer`* = *class*, 
 
-<sup> The optimizer—refer to the [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details.*`default=torch.optim.Adam()`* </sup>
+<sup> The optimizer—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details.*`default=torch.optim.Adam()`* </sup>
 
 *`learning_rate`*  = *float*, 
 
@@ -97,8 +97,66 @@ SGML...
 
 ### 3. Support Vector Regression-Based Model
 
+*def* **SGML.svr(**
 
+*`train_path`* = *str*, 
 
+*`test_path`* = *str*, 
 
+*`feature_names`* = *list*, 
 
+*`lable_names`* = *list*, 
 
+*`solution_functions`* = *list*, 
+
+*`model_loadpath`* = *str*, 
+
+*`model_savepath`* = *str*, 
+
+*`kernel`* = *str*, 
+
+<sup> Refer to [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) for detailed information, and the same applies to the following parameters. *`default='linear'`* </sup>
+
+*`degree`* = *int*, 
+
+<sup> *`default=3`* </sup>
+
+*`gamma`* = *str* or *float*, 
+
+<sup> *`default='scale'`* </sup>
+
+*`coef0`* = *float*, 
+
+<sup> *`default=0.0`* </sup>
+
+*`tol`* = *float*, 
+
+<sup> *`default=1e-3`* </sup>
+
+*`C`* = *float*, 
+
+<sup> *`default=1.0`* </sup>
+
+*`epsilon`* = *float*, 
+
+<sup> *`default=0.1`* </sup>
+
+*`shrinking`* = *bool*, 
+
+<sup> *`default=True`* </sup>
+
+*`cache_size`* = *float*, 
+
+<sup> *`default=200`* </sup>
+
+*`verbose`* = *bool*, 
+
+<sup> *`default=False`* </sup>
+
+*`max_iter`* = *int* 
+
+<sup> *`default=-1`* </sup>
+
+**)**
+
+*return* *class*, *ndarray*, *ndarray*
