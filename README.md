@@ -2,6 +2,8 @@ Welcome to use SGML!
 
 ---
 
+<span style="font-size:24px;">这是大号字体的文本。</span>
+
 <br>
 
 # 1 Introduction
