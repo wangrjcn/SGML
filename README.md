@@ -65,13 +65,13 @@ SGML...
 
 *`hidden_layers`* = *list*, 
 
-*`activation_function`*  = *class*, 
+*`activation_function`*  = *object*, 
 
 *`batch_size`* = *int*, 
 
-*`criterion`* = *class*, 
+*`criterion`* = *object*, 
 
-*`optimizer`* = *class*, 
+*`optimizer`* = *object*, 
 
 *`learning_rate`*  = *float*, 
 
@@ -181,8 +181,52 @@ SGML...
 >
 >*`max_iter`* : *`default=-1`*
 
+<br>
 
+## 3.4 AdaBoost Regressor-Based Model
 
+*def* **SGML.svr(**
+
+*`train_path`* = *str*, 
+
+*`test_path`* = *str*, 
+
+*`feature_names`* = *list*, 
+
+*`lable_names`* = *list*, 
+
+*`solution_functions`* = *list*, 
+
+*`model_loadpath`* = *str*, 
+
+*`model_savepath`* = *str*, 
+
+*`estimator`* = *object*,
+
+*`n_estimators`* = *int*,
+
+*`learning_rate`* = *float*,
+
+*`loss`* = *str*,
+
+*`random_state`* = *int*
+
+**)**
+
+*return* *class*, *ndarray*, *ndarray*
+
+> [!TIP]
+> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
+>
+> *`estimator`* : Refer to [sklearn.ensemble.AdaBoostRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html) for detailed information, and the same applies to the following parameters. *`default=LinearRegression()`*
+>
+> *`n_estimators`* : *`default=50`* 
+>
+>*`learning_rate`* : *`default=1.0`* 
+>
+>*`loss`* : *`default='linear'`* 
+>
+>*`random_state`* : *`default=None`* 
 
 
 
