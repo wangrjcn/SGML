@@ -396,9 +396,27 @@ As depicted in the figure below, considering that the fixed end of a cantilever 
 
 ![SGML_fig1](images/fig1.svg)
 
-   | ID | x1 | x2 | ... | y |                               | ID | x1 | x2 | ... | y |
-   |---|---|---|---|---|                                    |---|---|---|---|---|
-   | 1 | ... | ... | ... | ... |                            | 1 | ... | ... | ... | ... |
-   | 2 | ... | ... | ... | ... |                            | 1 | ... | ... | ... | ... |
-   | ... | ... | ... | ... | ... |                          | 1 | ... | ... | ... | ... |
+Assuming $l=0.3 m$, $E=210 GPa$, $I=180 m^{-4}\$. We will proceed to address this problem using the *`SGML.ann()`* module, and the corresponding code and results are presented below: 
+
+```
+import SGML
+
+solution_1 = SGML.create_solution_function(expression='F * (-1 / 6 * x ** 3 + 1 / 2 * 0.3 * x ** 2) / (2100 * 180)',
+                                           variables=['F', 'x'])
+
+my_ann, y_test, y_pre = SGML.ann(train_path=os.path.join('./bending_train1.csv'),
+                                 test_path=os.path.join('./bending_test1.csv'),
+                                 feature_names=['F', 'x'],
+                                 lable_names=['y'],
+                                 solution_functions=[solution_1],
+                                 model_loadpath=None,
+                                 model_savepath=None,
+                                 hidden_layers=None,
+                                 activation_function=None,
+                                 batch_size=None,
+                                 criterion=None,
+                                 optimizer=None,
+                                 learning_rate=None,
+                                 epochs=None)
+```
 
