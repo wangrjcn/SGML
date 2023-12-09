@@ -101,7 +101,7 @@ Welcome to use SGML!
 
 **)**
 
-*return* *class*, *ndarray*, *ndarray*
+*return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
 > *`train_path`* : The file path for loading the training set. 
@@ -176,7 +176,7 @@ Welcome to use SGML!
 
 **)**
 
-*return* *class*, *ndarray*, *ndarray*
+*return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
@@ -235,7 +235,7 @@ Welcome to use SGML!
 
 **)**
 
-*return* *class*, *ndarray*, *ndarray*
+*return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
@@ -296,7 +296,7 @@ Welcome to use SGML!
 
 **)**
 
-*return* *class*, *ndarray*, *ndarray*
+*return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
@@ -363,7 +363,7 @@ Welcome to use SGML!
 
 **)**
 
-*return* *class*, *ndarray*, *ndarray*
+*return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
