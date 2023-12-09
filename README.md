@@ -10,7 +10,7 @@ SGML...
 
 - The implementation of this project relies on the following packages:
 - 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/pandas-Any-blue" alt="pandas" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/pandas-Any-blue" alt="pandas" />](https://pandas.pydata.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/NumPy-Any-blue" alt="NumPy" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/Matplotlib-Any-blue" alt="Matplotlib" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/joblib-Any-blue" alt="joblib" />
