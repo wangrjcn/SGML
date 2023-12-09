@@ -1,4 +1,9 @@
-# 1 Solution-guided Machine Learning (SGML)
+# Welcome to use SGML! 
+
+<br>
+<br>
+
+# 1 Introduction
 
 Welcome to use SGML! 
 
