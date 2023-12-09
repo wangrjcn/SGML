@@ -401,8 +401,13 @@ Assuming $l=0.3 m$, $E=210 GPa$, $I=180 m^{-4}\$. We will proceed to address thi
 ```
 import SGML
 
+# Define the solution function
+
 solution_1 = SGML.create_solution_function(expression='F * (-1 / 6 * x ** 3 + 1 / 2 * 0.3 * x ** 2) / (2100 * 180)',
                                            variables=['F', 'x'])
+
+
+# Call the SGML.ann() module for training
 
 my_ann, y_test, y_pre = SGML.ann(train_path=os.path.join('./bending_train1.csv'),
                                  test_path=os.path.join('./bending_test1.csv'),
