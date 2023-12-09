@@ -45,7 +45,7 @@ SGML...
 
 <br>
 
-### 3.2 Artificial Neural Network-Based Model
+## 3.2 Artificial Neural Network-Based Model
 
 *def* **SGML.ann(**
 
@@ -132,47 +132,25 @@ SGML...
 
 *`kernel`* = *str*, 
 
-<sup> Refer to [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) for detailed information, and the same applies to the following parameters. *`default='linear'`* </sup>
-
 *`degree`* = *int*, 
-
-<sup> *`default=3`* </sup>
 
 *`gamma`* = *str* or *float*, 
 
-<sup> *`default='scale'`* </sup>
-
 *`coef0`* = *float*, 
-
-<sup> *`default=0.0`* </sup>
 
 *`tol`* = *float*, 
 
-<sup> *`default=1e-3`* </sup>
-
 *`C`* = *float*, 
-
-<sup> *`default=1.0`* </sup>
 
 *`epsilon`* = *float*, 
 
-<sup> *`default=0.1`* </sup>
-
 *`shrinking`* = *bool*, 
-
-<sup> *`default=True`* </sup>
 
 *`cache_size`* = *float*, 
 
-<sup> *`default=200`* </sup>
-
 *`verbose`* = *bool*, 
 
-<sup> *`default=False`* </sup>
-
 *`max_iter`* = *int* 
-
-<sup> *`default=-1`* </sup>
 
 **)**
 
