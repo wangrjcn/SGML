@@ -425,3 +425,8 @@ my_ann, y_test, y_pre = SGML.ann(train_path=os.path.join('./bending_train1.csv')
                                  epochs=None)
 ```
 
+![SGML_fig2](images/fig2.png)
+
+The required data for this example is readily available within the package. For comparison, we set *`solution_functions=None`* (indicating conventional machine learning), retrain, and present the prediction results below. 
+
+![SGML_fig3](images/fig3.png)
