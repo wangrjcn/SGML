@@ -390,6 +390,9 @@
 >
 > *`random_state`* : *`default=None`* 
 
+<br>
+<br>
+
 # 4 Example
 
 As depicted in the figure below, considering that the fixed end of a cantilever beam is obscured, force-deflection data can be experimentally obtained from the visible end. Our objective is to leverage machine learning to glean insights from this data and predict deflection at higher forces in different locations. Interestingly, by treating the occluded part as a wall, we can readily calculate the deflection of the new cantilever beam, providing valuable guidance for machine learning applications. 
