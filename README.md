@@ -8,8 +8,22 @@ SGML...
 
 # 2 Preparation
 
-1. 安装`pytorch`
-2.
+- The implementation of this project relies on the following packages: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/pandas-Any-blue" alt="pandas" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/NumPy-Any-blue" alt="NumPy" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/Matplotlib-Any-blue" alt="Matplotlib" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/joblib-Any-blue" alt="joblib" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/tqdm-Any-blue" alt="tqdm" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/PyTorch-2.x.x-orange" alt="PyTorch" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://img.shields.io/badge/scikit-learn-1.3-orange" alt="scikit-learn" />
+
+- d
+
+| ID | x1 | x2 | ... | y |
+|---|---|---|---|---|
+| 1 | ... | ... | ... | ... |
+| 2 | ... | ... | ... | ... |
+| ... | ... | ... | ... | ... |
 
 <br>
 <br>
