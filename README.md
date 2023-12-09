@@ -112,7 +112,7 @@ SGML...
 
 <br>
 
-### 3.3 Support Vector Regression-Based Model
+## 3.3 Support Vector Regression-Based Model
 
 *def* **SGML.svr(**
 
@@ -177,3 +177,37 @@ SGML...
 **)**
 
 *return* *class*, *ndarray*, *ndarray*
+
+> [!TIP]
+> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
+>
+> *`kernel`* : Refer to [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) for detailed information, and the same applies to the following parameters. *`default='linear'`*
+>
+> *`degree`* : *`default=3`* 
+>
+>*`gamma`* : *`default='scale'`* 
+>
+>*`coef0`* : *`default=0.0`* 
+>
+>*`tol`* : *`default=1e-3`* 
+>
+>*`C`* : *`default=1.0`* 
+>
+>*`epsilon`* : *`default=0.1`* 
+>
+>*`shrinking`* : *`default=True`* 
+>
+>*`cache_size`* : *`default=200`* 
+>
+>*`verbose`* : *`default=False`* 
+>
+>*`max_iter`* : *`default=-1`*
+
+
+
+
+
+
+
+
+
