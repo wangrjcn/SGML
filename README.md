@@ -28,7 +28,7 @@ Welcome to use SGML!
 
 - You can easily install SGML by using the following command:
 
-  `pip install numpy`
+  `pip install SGML`
 
 - The required project data is in .csv format, displayed in the table below, with the column index encompassing the features and labels necessary for machine learning. 
   
