@@ -26,6 +26,10 @@ Welcome to use SGML!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/PyTorch-2.x.x-orange" alt="PyTorch" />](https://pytorch.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/scikit_learn-1.3-orange" alt="scikit_learn" />](https://scikit-learn.org/stable/index.html)
 
+- You can easily install SGML by using the following command:
+
+  `pip install numpy`
+
 - The required project data is in .csv format, displayed in the table below, with the column index encompassing the features and labels necessary for machine learning. 
   
    | ID | x1 | x2 | ... | y |
