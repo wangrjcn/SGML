@@ -183,7 +183,7 @@ Welcome to use SGML!
 *return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
-> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in [Section 3.2](##-3.2-Artificial-Neural-Network-based-Model).
+> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in [Section 3.2](##32-artificial-neural-network-based-model).
 >
 > *`kernel`* : Refer to [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) for detailed information, and the same applies to the following parameters. *`default='linear'`*
 >
