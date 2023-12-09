@@ -1,7 +1,5 @@
 ---
 
-# 
-
 # Welcome to use SGML! 
 
 ---
