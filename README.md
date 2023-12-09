@@ -84,31 +84,31 @@ SGML...
 > [!TIP]
 > *`train_path`* : The file path for loading the training set. 
 >
->*`test_path`* : The file path for loading the testing set. 
+> *`test_path`* : The file path for loading the testing set. 
 >
->*`feature_names`* : List containing feature names, such as *`['x1', 'x2', ...]`*. 
+> *`feature_names`* : List containing feature names, such as *`['x1', 'x2', ...]`*. 
 >
->*`lable_names`* : List containing label names, such as *`['y']`*. 
+> *`lable_names`* : List containing label names, such as *`['y']`*. 
 >
->*`solution_functions`* : List containing solution function names, such as *`[solution1, solution2, ...]`*. *`default=None`* 
+> *`solution_functions`* : List containing solution function names, such as *`[solution1, solution2, ...]`*. *`default=None`* 
 >
->*`model_loadpath`* : The file path for the existing model. *`default=None`* 
+> *`model_loadpath`* : The file path for the existing model. *`default=None`* 
 >
->*`model_savepath`* : Path to save the model. *`default=None`* 
+> *`model_savepath`* : Path to save the model. *`default=None`* 
 >
->*`hidden_layers`* : The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. *`default=[8, 8]`* 
+> *`hidden_layers`* : The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. *`default=[8, 8]`* 
 >
->*`activation_function`* : The activation function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* 
+> *`activation_function`* : The activation function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* 
 >
->*`batch_size`* : The number of training samples used by the model during each parameter update. *`default=Total number of samples`* 
+> *`batch_size`* : The number of training samples used by the model during each parameter update. *`default=Total number of samples`* 
 >
->*`criterion`* : The loss function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* 
+> *`criterion`* : The loss function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* 
 >
->*`optimizer`* : The optimizer—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details.*`default=torch.optim.Adam()`* 
+> *`optimizer`* : The optimizer—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details.*`default=torch.optim.Adam()`* 
 >
->*`learning_rate`* : *`default=0.01`* 
+> *`learning_rate`* : *`default=0.01`* 
 >
->*`epochs`* : *`default=5000`* 
+> *`epochs`* : *`default=5000`* 
 
 <br>
 
@@ -163,29 +163,29 @@ SGML...
 >
 > *`degree`* : *`default=3`* 
 >
->*`gamma`* : *`default='scale'`* 
+> *`gamma`* : *`default='scale'`* 
 >
->*`coef0`* : *`default=0.0`* 
+> *`coef0`* : *`default=0.0`* 
 >
->*`tol`* : *`default=1e-3`* 
+> *`tol`* : *`default=1e-3`* 
 >
->*`C`* : *`default=1.0`* 
+> *`C`* : *`default=1.0`* 
 >
->*`epsilon`* : *`default=0.1`* 
+> *`epsilon`* : *`default=0.1`* 
 >
->*`shrinking`* : *`default=True`* 
+> *`shrinking`* : *`default=True`* 
 >
->*`cache_size`* : *`default=200`* 
+> *`cache_size`* : *`default=200`* 
 >
->*`verbose`* : *`default=False`* 
+> *`verbose`* : *`default=False`* 
 >
->*`max_iter`* : *`default=-1`*
+> *`max_iter`* : *`default=-1`*
 
 <br>
 
 ## 3.4 AdaBoost Regressor-Based Model
 
-*def* **SGML.svr(**
+*def* **SGML.adaboost(**
 
 *`train_path`* = *str*, 
 
@@ -222,11 +222,95 @@ SGML...
 >
 > *`n_estimators`* : *`default=50`* 
 >
->*`learning_rate`* : *`default=1.0`* 
+> *`learning_rate`* : *`default=1.0`* 
 >
->*`loss`* : *`default='linear'`* 
+> *`loss`* : *`default='linear'`* 
 >
->*`random_state`* : *`default=None`* 
+> *`random_state`* : *`default=None`* 
+
+<br>
+
+## 3.5 BayesianRidge-Based Model
+
+*def* **SGML.svr(**
+
+*`train_path`* = *str*, 
+
+*`test_path`* = *str*, 
+
+*`feature_names`* = *list*, 
+
+*`lable_names`* = *list*, 
+
+*`solution_functions`* = *list*, 
+
+*`model_loadpath`* = *str*, 
+
+*`model_savepath`* = *str*, 
+
+*`max_iter`* = *int*, 
+
+*`tol`* = *float*, 
+
+*`alpha_1`* = *str* or *float*, 
+
+*`alpha_2`* = *float*, 
+
+*`lambda_1`* = *float*, 
+
+*`lambda_2`* = *float*, 
+
+*`alpha_init`* = *float*, 
+
+*`lambda_init`* = *float*, 
+
+*`compute_score`* = *bool*, 
+
+*`fit_intercept`* = *bool*, 
+
+*`copy_X`* = *bool* 
+
+*`verbose`* = *bool* 
+
+**)**
+
+*return* *class*, *ndarray*, *ndarray*
+
+> [!TIP]
+> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
+>
+> *`max_iter`* : Refer to [sklearn.linear_model.BayesianRidge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.BayesianRidge.html) for detailed information, and the same applies to the following parameters. *`default=None`*
+>
+> *`tol`* : *`default=1e-3`* 
+>
+> *`alpha_1`* : *`default=1e-6`* 
+>
+> *`alpha_2`* : *`default=1e-6`* 
+>
+> *`lambda_1`* : *`default=1e-6`* 
+>
+> *`lambda_2`* : *`default=1e-6`* 
+>
+> *`alpha_init`* : *`default=None`* 
+>
+> *`lambda_init`* : *`default=None`* 
+>
+> *`compute_score`* : *`default=False`* 
+>
+> *`fit_intercept`* : *`default=True`* 
+>
+> *`copy_X`* : *`default=Trye`*
+>
+> *`verbose`* : *`default=False`*
+
+
+
+
+
+
+
+
+
 
 
 
