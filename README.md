@@ -75,9 +75,7 @@ SGML...
 
 *`learning_rate`*  = *float*, 
 
-<sup> *`default=0.01`* </sup>
-
-<sup> *`default=5000`* </sup>
+*`epochs`*  = *int*, 
 
 **)**
 
