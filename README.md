@@ -4,7 +4,6 @@ Welcome to use SGML!
 
 <br>
 <br>
-<br>
 
 # 2 Preparation
 
@@ -26,7 +25,6 @@ Welcome to use SGML!
    | 2 | ... | ... | ... | ... |
    | ... | ... | ... | ... | ... |
 
-<br>
 <br>
 <br>
 
