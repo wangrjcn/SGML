@@ -71,7 +71,7 @@ Welcome to use SGML!
 
 <br>
 
-## 3.2 Artificial Neural Network-Based Model
+## 3.2 Artificial Neural Network-based Model
 
 *def* **SGML.ann(**
 
@@ -138,7 +138,7 @@ Welcome to use SGML!
 
 <br>
 
-## 3.3 Support Vector Regression-Based Model
+## 3.3 Support Vector Regression-based Model
 
 *def* **SGML.svr(**
 
@@ -183,7 +183,7 @@ Welcome to use SGML!
 *return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
-> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in [Section 3.2](#3.2-Artificial-Neural-Network-Based-Model).
+> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in [Section 3.2](##-3.2-Artificial-Neural-Network-based-Model).
 >
 > *`kernel`* : Refer to [sklearn.svm.SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html) for detailed information, and the same applies to the following parameters. *`default='linear'`*
 >
@@ -209,7 +209,7 @@ Welcome to use SGML!
 
 <br>
 
-## 3.4 AdaBoost Regressor-Based Model
+## 3.4 AdaBoost Regressor-based Model
 
 *def* **SGML.adaboost(**
 
@@ -256,7 +256,7 @@ Welcome to use SGML!
 
 <br>
 
-## 3.5 BayesianRidge Regressor-Based Model
+## 3.5 BayesianRidge Regressor-based Model
 
 *def* **SGML.bayesianridge(**
 
@@ -331,7 +331,7 @@ Welcome to use SGML!
 
 <br>
 
-## 3.6 Ridge Regressor-Based Model
+## 3.6 Ridge Regressor-based Model
 
 *def* **SGML.ridge(**
 
