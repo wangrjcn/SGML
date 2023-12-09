@@ -8,7 +8,7 @@ Welcome to use SGML!
 
 # 2 Preparation
 
-- The implementation of this project relies on the following packages:
+- The functionality of this package depends on the following external libraries: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/pandas-2.x.x-orange" alt="pandas" />](https://pandas.pydata.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/NumPy-1.x.x-orange" alt="NumPy" />](https://numpy.org/)
@@ -20,11 +20,11 @@ Welcome to use SGML!
 
 - The required data for the project is in .csv format, as shown in the table below.
   
-  | ID | x1 | x2 | ... | y |
-  |---|---|---|---|---|
-  | 1 | ... | ... | ... | ... |
-  | 2 | ... | ... | ... | ... |
-  | ... | ... | ... | ... | ... |
+   | ID | x1 | x2 | ... | y |
+   |---|---|---|---|---|
+   | 1 | ... | ... | ... | ... |
+   | 2 | ... | ... | ... | ... |
+   | ... | ... | ... | ... | ... |
 
 <br>
 <br>
