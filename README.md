@@ -252,7 +252,7 @@ SGML...
 
 *`tol`* = *float*, 
 
-*`alpha_1`* = *str* or *float*, 
+*`alpha_1`* = *float*, 
 
 *`alpha_2`* = *float*, 
 
