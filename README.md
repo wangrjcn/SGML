@@ -230,9 +230,9 @@ SGML...
 
 <br>
 
-## 3.5 BayesianRidge-Based Model
+## 3.5 BayesianRidge Regressor-Based Model
 
-*def* **SGML.svr(**
+*def* **SGML.bayesianridge(**
 
 *`train_path`* = *str*, 
 
@@ -303,6 +303,64 @@ SGML...
 >
 > *`verbose`* : *`default=False`*
 
+<br>
+
+## 3.6 Ridge Regressor-Based Model
+
+*def* **SGML.ridge(**
+
+*`train_path`* = *str*, 
+
+*`test_path`* = *str*, 
+
+*`feature_names`* = *list*, 
+
+*`lable_names`* = *list*, 
+
+*`solution_functions`* = *list*, 
+
+*`model_loadpath`* = *str*, 
+
+*`model_savepath`* = *str*, 
+
+*`alpha`* = *float*, 
+
+*`fit_intercept`* = *bool*, 
+
+*`copy_X`* = *str* or *bool*, 
+
+*`max_iter`* = *int*, 
+
+*`tol`* = *float*, 
+
+*`solver`* = *str*, 
+
+*`positive`* = *bool*, 
+
+*`random_state`* = *int*, 
+
+**)**
+
+*return* *class*, *ndarray*, *ndarray*
+
+> [!TIP]
+> The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
+>
+> *`alpha`* : Refer to [sklearn.linear_model.Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html) for detailed information, and the same applies to the following parameters. *`default=1.0`*
+>
+> *`fit_intercept`* : *`default=True`* 
+>
+> *`copy_X`* : *`default=True`* 
+>
+> *`max_iter`* : *`default=None`* 
+>
+> *`tol`* : *`default=1e-4`* 
+>
+> *`solver`* : *`default='auto'`* 
+>
+> *`positive`* : *`default=False`* 
+>
+> *`random_state`* : *`default=None`* 
 
 
 
