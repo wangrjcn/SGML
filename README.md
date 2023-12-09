@@ -390,7 +390,7 @@
 >
 > *`random_state`* : *`default=None`* 
 
-
+![SGML_fig1](images/fig1.svg)
 
 
 
