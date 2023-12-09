@@ -414,8 +414,8 @@ solution_1 = SGML.create_solution_function(expression='F * (-1 / 6 * x ** 3 + 1 
 
 # Call the SGML.ann() module for training
 
-my_ann, y_test, y_pre = SGML.ann(train_path=os.path.join('./bending_train1.csv'),
-                                 test_path=os.path.join('./bending_test1.csv'),
+my_ann, y_test, y_pre = SGML.ann(train_path='./bending_train1.csv',
+                                 test_path='./bending_test1.csv',
                                  feature_names=['F', 'x'],
                                  lable_names=['y'],
                                  solution_functions=[solution_1],
