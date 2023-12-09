@@ -1,6 +1,6 @@
 # 1 Solution-guided Machine Learning (SGML)
 
-SGML...
+Welcome to use SGML! 
 
 <br>
 <br>
@@ -10,7 +10,7 @@ SGML...
 
 - The implementation of this project relies on the following packages:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/pandas-2.x.x-orange" alt="pandas" />](https://pandas.pydata.org/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/pandas-2.x.x-orange" alt="pandas" />](https://pandas.pydata.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/NumPy-1.x.x-orange" alt="NumPy" />](https://numpy.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/Matplotlib-3.x-orange" alt="Matplotlib" />](https://matplotlib.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/joblib-Any-blue" alt="joblib" />](https://pypi.org/project/joblib/)
@@ -18,13 +18,13 @@ SGML...
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/PyTorch-2.x.x-orange" alt="PyTorch" />](https://pytorch.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/scikit_learn-1.3-orange" alt="scikit_learn" />](https://scikit-learn.org/stable/index.html)
 
-- d
-
-| ID | x1 | x2 | ... | y |
-|---|---|---|---|---|
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| ... | ... | ... | ... | ... |
+- The required data for the project is in .csv format, as shown in the table below.
+  
+  | ID | x1 | x2 | ... | y |
+  |---|---|---|---|---|
+  | 1 | ... | ... | ... | ... |
+  | 2 | ... | ... | ... | ... |
+  | ... | ... | ... | ... | ... |
 
 <br>
 <br>
