@@ -105,7 +105,7 @@
 
 *`learning_rate`*  = *float*, 
 
-*`epochs`*  = *int*, 
+*`epochs`*  = *int* 
 
 **)**
 
@@ -298,7 +298,7 @@
 
 *`fit_intercept`* = *bool*, 
 
-*`copy_X`* = *bool* 
+*`copy_X`* = *bool*, 
 
 *`verbose`* = *bool* 
 
@@ -329,7 +329,7 @@
 >
 > *`fit_intercept`* : *`default=True`* 
 >
-> *`copy_X`* : *`default=Trye`*
+> *`copy_X`* : *`default=True`*
 >
 > *`verbose`* : *`default=False`*
 
@@ -367,7 +367,7 @@
 
 *`positive`* = *bool*, 
 
-*`random_state`* = *int*, 
+*`random_state`* = *int* 
 
 **)**
 
