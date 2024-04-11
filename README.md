@@ -402,7 +402,7 @@
 
 As depicted in the figure below, considering that the fixed end of a cantilever beam is obscured, force-deflection data can be experimentally obtained from the visible end. Our objective is to leverage machine learning to glean insights from this data and predict deflection at higher forces in different locations. Interestingly, by treating the occluded part as a wall, we can readily calculate the deflection of the new cantilever beam, providing valuable guidance for machine learning applications. 
 
-![SGML_fig1](images/fig1_2.svg)
+![SGML_fig1](images/fig1.svg)
 
 Assuming $l=0.3 m$, $E=210 GPa$, $I=180 m^{-4}\$. We will proceed to address this problem using the *`SGML.ann()`* module, and the corresponding code and results are presented below: 
 
