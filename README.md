@@ -30,9 +30,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/PyTorch-2.x.x-orange" alt="PyTorch" />](https://pytorch.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/scikit_learn-1.3-orange" alt="scikit_learn" />](https://scikit-learn.org/stable/index.html)
 
-- You can easily install SGML using the following command:
+- You can easily install SGML using the following command (soon):
 
   `pip install SGML`
+
+> [!IMPORTANT]
+> Currently, you can decompress the "SGML_Package.zip" file located in the appendix and then copy the decompressed file into your Python library to utilize it. 
 
 - The required project data is in .csv format, displayed in the table below, with the column index encompassing the features and labels necessary for machine learning. 
   
