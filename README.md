@@ -55,7 +55,7 @@
 >
 > - All models are presently implemented as functions, each returning the trained model along with both the labels and predictions for the testing set.
 >
-> - When the parameters are set to *`None`* or left unspecified, the default values for those parameters will be applied. 
+> - When the parameters are set to *`'default'`* or left unspecified, the default values for those parameters will be applied. 
 
 <br>
 
