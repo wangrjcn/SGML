@@ -422,15 +422,15 @@ my_ann, y_test, y_pre = SGML.ann(train_path='./bending_train1.csv',
                                  feature_names=['F', 'x'],
                                  lable_names=['y'],
                                  solution_functions=[solution_1],
-                                 model_loadpath=None,
-                                 model_savepath=None,
-                                 hidden_layers=None,
-                                 activation_function=None,
-                                 batch_size=None,
-                                 criterion=None,
-                                 optimizer=None,
-                                 learning_rate=None,
-                                 epochs=None)
+                                 model_loadpath='default',
+                                 model_savepath='default',
+                                 hidden_layers='default',
+                                 activation_function='default',
+                                 batch_size='default',
+                                 criterion='default',
+                                 optimizer='default',
+                                 learning_rate='default',
+                                 epochs='default')
 ```
 
 ![SGML_fig2](images/fig2.svg)
