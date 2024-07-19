@@ -384,11 +384,17 @@
 
 <br>
 
-## 3.7 Other modules
+## 3.7 Other Modules
+
+### 3.7.2 Prediction Module
 
 *def* ***self*.predict()**
 
-*`train_path`* = *str*, 
+*return* *ndarray*
+
+> [!TIP]
+> The prediction module employs the trained model and the supplied data to generate predictions. 
+
 <br>
 <br>
 
