@@ -402,6 +402,22 @@
 > [!TIP]
 > The prediction module employs the trained model and the supplied data to generate predictions. 
 
+### 3.7.3 Testing Module
+
+*def* **self.test()**
+
+*return* *ndarray*
+
+> [!TIP]
+> The testing module can extract test data from the provided dataset for comparison with the model's predicted results. 
+
+### 3.7.4 Visualization Module
+
+*def* **self.plot_results(*ndarray*, *ndarray*)**
+
+> [!TIP]
+> The testing module can extract test data from the provided dataset for comparison with the model's predicted results. 
+
 <br>
 <br>
 
