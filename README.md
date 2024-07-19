@@ -455,7 +455,7 @@ my_ann = SGML.ann(train_path='./bending_train1.csv',
                   learning_rate='default',
                   epochs='default')
 
-# Training the defined model
+# Train the defined model
 
 my_ann.train()
 
