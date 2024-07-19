@@ -109,7 +109,6 @@
 
 **)**
 
-
 > [!TIP]
 > *`train_path`* : The file path for loading the training set. 
 >
@@ -143,7 +142,7 @@
 
 ## 3.3 Support Vector Regression-based Model
 
-*def* **SGML.svr(**
+*class* **SGML.svr(**
 
 *`train_path`* = *str*, 
 
@@ -183,8 +182,6 @@
 
 **)**
 
-*return* *object*, *ndarray*, *ndarray*
-
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
 >
@@ -214,7 +211,7 @@
 
 ## 3.4 AdaBoost Regressor-based Model
 
-*def* **SGML.adaboost(**
+*class* **SGML.adaboost(**
 
 *`train_path`* = *str*, 
 
@@ -242,8 +239,6 @@
 
 **)**
 
-*return* *object*, *ndarray*, *ndarray*
-
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
 >
@@ -261,7 +256,7 @@
 
 ## 3.5 BayesianRidge Regressor-based Model
 
-*def* **SGML.bayesianridge(**
+*class* **SGML.bayesianridge(**
 
 *`train_path`* = *str*, 
 
@@ -303,8 +298,6 @@
 
 **)**
 
-*return* *object*, *ndarray*, *ndarray*
-
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
 >
@@ -336,7 +329,7 @@
 
 ## 3.6 Ridge Regressor-based Model
 
-*def* **SGML.ridge(**
+*class* **SGML.ridge(**
 
 *`train_path`* = *str*, 
 
@@ -369,8 +362,6 @@
 *`random_state`* = *int* 
 
 **)**
-
-*return* *object*, *ndarray*, *ndarray*
 
 > [!TIP]
 > The API reference for the parameters *`train_path`*, *`test_path`*, *`feature_names`*, *`lable_names`*, *`solution_functions`*, *`model_loadpath`*, and *`model_savepath`* can be found in Section 3.2.
