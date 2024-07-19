@@ -386,9 +386,16 @@
 
 ## 3.7 Other Modules
 
+### 3.7.1 Training Module
+
+*def* **self.train()**
+
+> [!TIP]
+> The training module, which has no return value, will train the defined model upon being called. 
+
 ### 3.7.2 Prediction Module
 
-*def* ***self*.predict()**
+*def* **self.predict()**
 
 *return* *ndarray*
 
