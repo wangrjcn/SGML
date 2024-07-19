@@ -13,7 +13,7 @@
 
    Solution-guided machine learning (SGML) is a universal approach designed to enhance the extrapolation capabilities of AI models, as detailed in the paper [*Thin-Walled Struct.* 200 (2024) 111984]. To simplify the integration of this method into diverse projects, we have encapsulated it within a user-friendly Python package. By leveraging the functions provided in the package, users can effortlessly apply the SGML method to enhance the extrapolation capabilities of their AI models.
 
-   The current version of the package incorporates various regression models, including implementations for artificial neural networks, support vector regression, AdaBoost regression, Bayesian Ridge regression, and Ridge regression models. It's worth noting that we are actively working to expand the package's capabilities, and future releases will introduce additional models to further enhance its universality and applicability to a broader range of AI projects.
+   The current version of the package incorporates various regression models, including implementations for Artificial Neural Networks, Support Vector Regression, AdaBoost Regression, Bayesian Ridge Regression, and Ridge Regression models. It's worth noting that we are actively working to expand the package's capabilities, and future releases will introduce additional models to further enhance its universality and applicability to a broader range of AI projects.
 
 <br>
 <br>
@@ -30,7 +30,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/PyTorch-2.x.x-orange" alt="PyTorch" />](https://pytorch.org/)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/scikit_learn-1.3-orange" alt="scikit_learn" />](https://scikit-learn.org/stable/index.html)
 
-- You can easily install SGML using the following command (soon):
+- You can easily install SGML using the following command:
 
   `pip install SGML`
 
