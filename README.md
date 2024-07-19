@@ -438,7 +438,7 @@ solution_1 = SGML.create_solution_function(expression='F * (-1 / 6 * x ** 3 + 1 
                                            variables=['F', 'x'])
 
 
-# Call the SGML.ann() module for training
+# Use the SGML.ann() module to define the model
 
 my_ann = SGML.ann(train_path='./bending_train1.csv',
                   test_path='./bending_test1.csv',
@@ -446,10 +446,16 @@ my_ann = SGML.ann(train_path='./bending_train1.csv',
                   label_names=['y'],
                   solution_functions=[solution_1])
 
+# Training the defined model
+
 my_ann.train()
+
+# Obtain test data and prediction results
 
 y_test = my_ann.test()
 y_pre = my_ann.predict()
+
+# Visualize the results
 
 my_ann.plot_results(y_test, y_pre)
 
