@@ -48,11 +48,11 @@
 # 3 API
 
 > [!IMPORTANT]
-> - The solution function will be returned with the data type of a *function* for the given solution. Users can assign it a name for subsequent guidance in machine learning.
->
-> - All models are presently implemented as functions, each returning the trained model along with both the labels and predictions for the testing set.
+> - The solution function will be returned with the data type of a *function* for the given solution. Users can assign it a name for subsequent guidance in machine learning. 
 >
 > - When the parameters are set to *`'default'`* or left unspecified, the default values for those parameters will be applied. 
+>
+> - Once you have defined your chosen model, remember to utilize additional modules for training and further analysis. 
 
 <br>
 
@@ -77,7 +77,7 @@
 
 ## 3.2 Artificial Neural Network-based Model
 
-*def* **SGML.ann(**
+*class* **SGML.ann(**
 
 *`train_path`* = *str*, 
 
