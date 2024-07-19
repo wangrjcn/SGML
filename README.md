@@ -386,7 +386,7 @@
 
 ## 3.7 Other modules
 
-*class* **SGML.ridge(**
+*def* ***self*.predict()**
 
 *`train_path`* = *str*, 
 <br>
