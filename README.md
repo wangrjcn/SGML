@@ -383,6 +383,13 @@
 > *`random_state`* : *`default=None`* 
 
 <br>
+
+## 3.7 Other modules
+
+*class* **SGML.ridge(**
+
+*`train_path`* = *str*, 
+<br>
 <br>
 
 # 4 Example
