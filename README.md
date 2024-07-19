@@ -34,9 +34,6 @@
 
   `pip install SGML`
 
-> [!IMPORTANT]
-> Currently, you can decompress the "SGML_Package.zip" file located in the appendix and then copy the decompressed file into your Python library to utilize it. 
-
 - The required project data is in .csv format, displayed in the table below, with the column index encompassing the features and labels necessary for machine learning. 
   
    | ID | x1 | x2 | ... | y |
@@ -137,7 +134,7 @@
 >
 > *`criterion`* : The loss function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* 
 >
-> *`optimizer`* : The optimizer—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details.*`default=torch.optim.Adam()`* 
+> *`optimizer`* : The optimizer—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.optim.Adam()`* 
 >
 > *`learning_rate`* : *`default=0.01`* 
 >
