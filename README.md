@@ -416,7 +416,7 @@
 *def* **self.plot_results(*ndarray*, *ndarray*)**
 
 > [!TIP]
-> The testing module can extract test data from the provided dataset for comparison with the model's predicted results. 
+> The visualization module will display the test data on the horizontal axis and the prediction results on the vertical axis. 
 
 <br>
 <br>
