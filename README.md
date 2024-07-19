@@ -444,7 +444,16 @@ my_ann = SGML.ann(train_path='./bending_train1.csv',
                   test_path='./bending_test1.csv',
                   feature_names=['F', 'x'],
                   label_names=['y'],
-                  solution_functions=[solution_1])
+                  solution_functions=[solution_1],
+                  model_loadpath='default',
+                  model_savepath='default',
+                  hidden_layers='default',
+                  activation_function='default',
+                  batch_size='default',
+                  criterion='default',
+                  optimizer='default',
+                  learning_rate='default',
+                  epochs='default')
 
 # Training the defined model
 
@@ -463,6 +472,6 @@ my_ann.plot_results(y_test, y_pre)
 
 ![SGML_fig2](images/fig2.svg)
 
-The required data for this example is readily available within the package. For comparison, we set *`solution_functions=None`* (indicating conventional machine learning), retrain, and present the prediction results below. 
+The required data for this example is readily available within the package. For comparison, we set *`solution_functions='default'`* (indicating conventional machine learning), retrain, and present the prediction results below. 
 
 ![SGML_fig3](images/fig3.svg)
