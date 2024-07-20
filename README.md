@@ -71,7 +71,7 @@
 > [!TIP]
 > *`expression`* : Solution expression, such as *`'a**3+2*b+1'`*.
 >                                          
-> *`variables`* : List of variables included in the solution，such as *`['a', 'b']`*.
+> *`variables`* : List of variables included in the solution, such as *`['a', 'b']`*.
 
 <br>
 
@@ -126,13 +126,13 @@
 >
 > *`hidden_layers`* : The hidden layer architecture, denoted as *`[4, 8, 2]`*, signifies the presence of three hidden layers with node counts of 4, 8, and 2, respectively. *`default=[8, 8]`* 
 >
-> *`activation_function`* : The activation function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* 
+> *`activation_function`* : The activation function--refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.PReLU()`* 
 >
 > *`batch_size`* : The number of training samples used by the model during each parameter update. *`default=Total number of samples`* 
 >
-> *`criterion`* : The loss function—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* 
+> *`criterion`* : The loss function--refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.nn.MSELoss()`* 
 >
-> *`optimizer`* : The optimizer—refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.optim.Adam()`* 
+> *`optimizer`* : The optimizer--refer to [PyTorch Documentation](https://pytorch.org/docs/stable/index.html) for details. *`default=torch.optim.Adam()`* 
 >
 > *`learning_rate`* : *`default=0.01`* 
 >
